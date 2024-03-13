@@ -1,0 +1,106 @@
+<!-- You will need to correctly format this for HTML5> -->
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Could add other head elements if needed -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COSC 360 – Lab 1</title> <!-- title of HTML document, shown on the tab -->
+
+    <style>
+        p.review {
+        line-height: 1.5; 
+        }
+    </style>
+</head>
+
+<body>
+    <!-- HTML content goes here -->
+    <!-- Header Section -->
+    <header>
+        <h1> COSC 360</h1>
+        <h2> Lab 1 - HTML</h2>
+        <nav> <!-- As long as your IDs match the fragment identifiers 
+            and the sections are appropriately structured in your HTML, the navigation links should work correctly. -->
+           <ul>
+            <li><a href="#description">Description</a></li> <!-- anchor links with fragmnet identifiers: href="#section" e.g. id="description"-->
+            <li><a href="#related-photos">Related Photos</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+           </ul> 
+        </nav>
+    </header>
+
+    <!-- Description Section -->
+    <section id="description"> 
+        <h3>Description</h3> <!-- hyperlink for Pixabay-->
+        <p>This is an image of crystals on a branch, in winter. The image is from <a href="https://www.pixabay.com" target="_blank">Pixabay</a> and was taken by Canon EOS 650D camera.</p>
+        <a href="images/eiskristalle-1938842_640.jpg" target="_blank">
+            <img src="images/eiskristalle-1938842_640.jpg" alt="A thick tree branch covered in ice crystals" >
+        </a>        
+        <div>
+            <!-- Social Media Icons: -->
+            <img src="images/social/email_16.png" alt="Email this to someone" > <!-- links not required -->
+            <img src="images/social/rss_16.png" alt="Syndicated content" >
+            <img src="images/social/twitter_16.png" alt="Share this on Twitter" >
+            <img src="images/social/facebook_16.png" alt="Share this on Facebook" >
+            <img src="images/social/flickr_16.png" alt="See this on Flickr" >
+        </div>
+    </section>
+    
+     <!-- Related Photos Section -->
+     <section id="related-photos">
+        <h3>Related Photos</h3> <!-- height of 100 pixels per image-->
+        <div>
+            <a href="images/frost-490807_640.jpg" target="_blank"> <!-- Image 1 -->
+                <img src="images/frost-490807_640.jpg" alt="Single snowflake on a blue background" height="100" >
+            </a> <!-- images link to larger, local images -->
+            
+            <a href="images/ice-crystal-64157_640.jpg" target="_blank"> <!-- Image 2 -->
+                <img src="images/ice-crystal-64157_640.jpg" alt="A single ice crystal on a black background" height="100" >
+            </a>
+            
+            <a href="images/hoarfrost-639980_640.jpg" target="_blank"> <!-- Image 3 -->
+                <img src="images/hoarfrost-639980_640.jpg" alt="Thin tree branches covered in crystals" height="100" >
+            </a>
+        </div>
+    </section> 
+    <!-- target="_blank" makes the links open in a new tab or window -->
+
+     <!-- Reviews Section -->
+     <section id="reviews">
+        <h3>Reviews</h3>
+        <div>
+            <div>
+                <p class="review">By Ryan Reynolds <time datetime="2024-01-11">on January 20, 2024</time>:<br> 
+                    I love this! Whoever took the photo is an amazing photographer!!</p>
+                <hr>
+            </div>
+            <div>
+                <p class="review">By Ahmad Antmar <time datetime="2024-01-13">on January 11, 2024</time>:<br> 
+                    This is mid. As a professional artist, this could have been better. I don't like it at all.</p>
+                <hr>
+            </div>
+            <div>
+                <p class="review">By Serenay Sarikaya <time datetime="2024-01-11">on January 10, 2024</time>:<br> 
+                    Amazing capture, wow! I'm impressed tbh...</p>
+                <hr>
+            </div>
+            <!-- Can add more reviews as needed -->
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p><i>Copyright &copy; 2024 COSC 360- Lab 1/ R4VIL</i></p>
+        <nav>
+            <ul style="list-style: none; padding: 0; margin: 0;"> <!-- inline style -->
+                <li><a href="home.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>
