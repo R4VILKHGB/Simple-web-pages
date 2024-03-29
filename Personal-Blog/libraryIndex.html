@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name - Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="libraryStyle.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Name</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to My Portfolio</h2>
+            <p>A brief introduction about myself and my interests...</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+
+            <div class="library-shelf">
+                <div class="book" onclick="showProjectDetails('project1')">
+                    <h3>Project 1</h3>
+                </div>
+                <div class="book" onclick="showProjectDetails('project2')">
+                    <h3>Project 2</h3>
+                </div>
+            </div>
+
+            <div id="project-details">
+            </div>
+
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>information about me.....</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>contact form, email and social media links...</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 My Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="libraryScript.js"></script> 
+</body>
+
+</html>

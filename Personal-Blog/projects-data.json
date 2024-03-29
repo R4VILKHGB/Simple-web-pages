@@ -1,0 +1,35 @@
+{
+  "projects": [
+    {
+      "id": "project1",
+      "title": "Responsive Web Design",
+      "category": "Coding",
+      "description": "website showcasing responsive web design principles.",
+      "images": [
+        "project1_image1.jpg",
+        "project1_image2.jpg"
+      ]
+    },
+    {
+      "id": "project2",
+      "title": "Digital Art Gallery",
+      "category": "Design/Art",
+      "description": "an online gallery featuring digital art creations.",
+      "images": [
+        "project2_image1.jpg",
+        "project2_image2.jpg"
+      ]
+    },
+    {
+      "id": "project3",
+      "title": "Modern Architecture Renderings",
+      "category": "Architecture",
+      "description": "architectural renderings of modern building designs.",
+      "images": [
+        "project3_image1.jpg",
+        "project3_image2.jpg"
+      ]
+    }
+    
+  ]
+}
